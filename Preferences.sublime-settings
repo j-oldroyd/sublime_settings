@@ -1,0 +1,30 @@
+{
+	"added_words":
+	[
+		"online",
+		"vertices",
+		"nonhomogeneous",
+		"spring's",
+		"underdetermined",
+		"Glennallen"
+	],
+	"auto_complete": true,
+	"auto_complete_commit_on_tab": true,
+	"auto_complete_delay": 50,
+	"auto_complete_selector": "source, text",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Palenight.tmTheme",
+	"font_face": "Inconsolata-dz",
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"Emmet",
+		"Markdown",
+		"Vintage"
+	],
+	"pretext_file_exts":
+	[
+		".mbx",
+		".ptx"
+	],
+	"theme": "Material-Theme.sublime-theme"
+}

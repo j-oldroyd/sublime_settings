@@ -1,0 +1,6 @@
+{
+	// "cmd": ["xsltproc", "--xinclude", "~/mathbook/xsl/mathbook-html.xsl", "$file_name"],
+	"shell_cmd": "xsltproc --xinclude ~/mathbook/xsl/wvwc-calc-html.xsl $file_name",
+	// "shell": true,
+	"selector": ["text.xml.mbx"]
+}

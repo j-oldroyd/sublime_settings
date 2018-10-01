@@ -1,0 +1,5 @@
+// These settings override both User and Default settings for the LaTeX syntax
+{
+	"color_scheme": "Packages/Writing Color Scheme/Writing Color Scheme Light.tmTheme",
+	"theme": "Material-Theme.sublime-theme"
+}

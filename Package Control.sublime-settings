@@ -1,0 +1,38 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"Agila Theme",
+		"All Autocomplete",
+		"Anaconda",
+		"BracketHighlighter",
+		"Emmet",
+		"Exalt",
+		"Indent XML",
+		"LaTeX Word Count",
+		"LaTeXTools",
+		"MarkdownEditing",
+		"MarkdownPreview",
+		"Material Theme",
+		"Neon Color Scheme",
+		"One Dark Color Scheme",
+		"One Dark Material - Theme",
+		"Origami",
+		"Package Control",
+		"PackageResourceViewer",
+		"PlainTasks",
+		"PreTeXtual",
+		"SideBarEnhancements",
+		"SublimeGit",
+		"SublimeLinter",
+		"SublimeLinter-contrib-mlint",
+		"Theme - Gravity",
+		"View In Browser",
+		"WordCount",
+		"Writing Color Scheme"
+	]
+}
