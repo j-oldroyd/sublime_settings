@@ -3,6 +3,16 @@
 	"working_dir": "$file_path",
 	//"cmd": "xsltproc --xinclude ~/mathbook/xsl/mathbook-latex.xsl wvwc-calculus.xml",
 	"cmd": "xsltproc --xinclude ~/mathbook/xsl/mathbook-latex.xsl ${file_name}",
+	//customized "chaos" theme for PDF output
+	"cmd": "xsltproc --xinclude ~/mathbook/user/wvwc-latex.xsl ${file_name}",
 	"shell": true,
+	//windows specific oddly enough
+	"windows":
+	{
+		//standard output
+		"cmd": "xsltproc -- xinclude %HOMEPATH%/mathbook/xsl/wvwc-latex.xsl $file_name",
+		//customized "chaos" theme for PDF output
+		"cmd": "xsltproc -- xinclude %HOMEPATH%/mathbook/user/wvwc-latex.xsl $file_name"
+	},
 	"selector": ["text.xml.mbx"]
 }
