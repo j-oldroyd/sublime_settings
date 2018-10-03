@@ -1,4 +1,4 @@
-{	
+{
 	//Prevents tab completion by Emmet. Use CTRL+E instead for Emmet completions.
-	"disabled_keymap_actions": "expand_abbreviation_by_tab"
+	"disable_tab_abbreviations": true
 }
