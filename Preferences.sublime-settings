@@ -23,13 +23,18 @@
 			"selector": "text.tex.latex"
 		}
 	],
-	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Palenight.tmTheme",
-	"font_face": "Inconsolata-dz",
-	"font_size": 12,
+// Package settings.
 	"ignored_packages":
 	[
 		"Vintage"
 	],
+	
+	//Prevents tab completion by Emmet. Use CTRL+E instead for Emmet completions.
+	"disable_tab_abbreviations": true,
+
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Palenight.tmTheme",
+	"font_face": "Inconsolata-dz",
+	"font_size": 12,
 	"pretext_file_exts":
 	[
 		".mbx",
