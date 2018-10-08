@@ -24,6 +24,8 @@
 		}
 	],
 // Package settings.
+	
+	// Packages to ignore.
 	"ignored_packages":
 	[
 		"Vintage"
@@ -32,13 +34,26 @@
 	//Prevents tab completion by Emmet. Use CTRL+E instead for Emmet completions.
 	"disable_tab_abbreviations": true,
 
-	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Palenight.tmTheme",
-	"font_face": "Inconsolata-dz",
-	"font_size": 12,
+// File extensions.
 	"pretext_file_exts":
 	[
 		".mbx",
 		".ptx"
 	],
-	"theme": "Material-Theme.sublime-theme"
+
+// Sublime display settings.
+	
+	// Scheme/theme/font settings.
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Palenight.tmTheme",
+	"font_face": "Inconsolata-dz",
+	"font_size": 12,
+	"theme": "Material-Theme.sublime-theme",
+
+	// Cursor/line settings.
+	"caret_style": "phase",
+	"highlight_line": true,
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
+	"fade_fold_buttons": false,
+	"bold_folder_labels": true,
 }

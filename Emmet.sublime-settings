@@ -1,3 +1,4 @@
 {
-	
+	// Disables tab abbreviation expansion in scopes. Use CTRL-E instead.
+	"disable_tab_abbreviations_for_scopes": "text.json, source.json, text.xml, text.html"
 }
