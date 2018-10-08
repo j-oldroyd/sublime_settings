@@ -1,10 +1,10 @@
 {
 	// "cmd": ["xsltproc", "--xinclude", "~/mathbook/xsl/mathbook-html.xsl", "$file_name"],
-	"shell_cmd": "xsltproc --xinclude ~/mathbook/user/wvwc-calc-html.xsl $file_name",
+	"shell_cmd": "xsltproc --xinclude ~/mathbook/user/wvwc-html.xsl $file_name",
 	//windows specific oddly enough
 	"windows":
 	{
-		"shell_cmd": "xsltproc -- xinclude %HOMEPATH%/mathbook/user/wvwc-calc-html.xsl $file_name"
+		"shell_cmd": "xsltproc --xinclude %HOMEPATH%/mathbook/user/wvwc-html.xsl $file_name"
 	},
 	// "shell": true,
 	"selector": ["text.xml.mbx"]
