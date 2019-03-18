@@ -34,6 +34,7 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
+		"Origami",
 		"Vintage"
 	],
 	"line_padding_bottom": 2,
