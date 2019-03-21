@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+\\begin{center}
+\\begin{tikzpicture}
+  \\begin{axis}[%
+    myplot,
+  ]
+    ${1:enter plot info here}
+  \\end{axis}
+\\end{tikzpicture}
+\\end{center}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>axis</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.tex.latex</scope>
+</snippet>

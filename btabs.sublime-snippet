@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+\\begin{center}
+  \\begin{tabular}{${1:enter align info here}}
+    \\toprule
+    ${2:enter top row} \\\\
+    \\midrule
+    ${3:enter next row} \\\\ $0
+    \\bottomrule
+  \\end{tabular}
+\\end{center}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>btabs</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.tex.latex</scope>
+  <description>booktabs table</description>
+</snippet>
