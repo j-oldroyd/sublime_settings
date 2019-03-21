@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+<figure xml:id="figure-${1/([A-Z])|(\s*<[^>]+>)|(\W+)/(?1\l$1:)(?2-:)(?3-:)/g}">
+  <caption>$1</caption>
+  <image xml:id="image-${1/([A-Z])|(\s*<[^>]+>)|(\W+)/(?1\l$1:)(?2-:)(?3-:)/g}">
+    <latex-image><![CDATA[
+      \begin{tikzpicture}
+        \begin{axis}[%
+          myplot,$3
+        ]
+          $4
+        \end{axis}
+      \end{tikzpicture}]]${-1}>
+    </latex-image>
+  </image>
+</figure>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>tikz</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.xml, text.ptx</scope>
+    <!-- Dirty trick: the ${-1} insertion point does nothing, except break up the CDATA closing tag and prevent it from breaking the snippet. -->
+</snippet>
