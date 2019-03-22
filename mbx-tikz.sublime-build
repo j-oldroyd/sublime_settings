@@ -3,6 +3,10 @@
 	"working_dir": "$file_path",
 	"shell": true,
 	"shell_cmd": "~/mathbook/script/mbx -vv -c latex-image -f svg -d \"${file_path}/images/\" ${file_name}",
+	"windows":
+	{
+		"shell_cmd": "%HOMEPATH%\\mathbook\\script\\mbx -vv -c latex-image -f svg -d \"${file_path}/images/\" ${file_name}"
+	},
 	// "cmd": ["~/mathbook/script/mbx -vv -c latex-image -f svg -d", "$file_path/images/ $file_name"],
 	"selector": ["text.xml.mbx.ptx"]
 }
