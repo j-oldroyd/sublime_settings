@@ -4,5 +4,5 @@
 	"shell": true,
 	"shell_cmd": "~/mathbook/script/mbx -vv -c latex-image -f svg -d \"${file_path}/images/\" ${file_name}",
 	// "cmd": ["~/mathbook/script/mbx -vv -c latex-image -f svg -d", "$file_path/images/ $file_name"],
-	"selector": ["text.xml.mbx"]
+	"selector": ["text.xml.mbx.ptx"]
 }
