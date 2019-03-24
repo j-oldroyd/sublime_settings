@@ -2,6 +2,7 @@
 	// "cmd": ["xsltproc", "--xinclude", "~/mathbook/xsl/mathbook-html.xsl", "$file_name"],
 	"working_dir": "$file_path",
 	"shell": true,
+	// Produce both SVG and PDF output for Asymptote figures.
 	"shell_cmd": "~/mathbook/script/mbx -vv -c asy -f svg -d \"${file_path}/images/\" ${file_name} && ~/mathbook/script/mbx -vv -c asy -f pdf -d \"${file_path}/images/\" ${file_name}",
 	// "shell_cmd": "~/mathbook/script/mbx -vv -c asy -f pdf -d \"${file_path}/images/\" ${file_name}",
 	// "cmd": ["~/mathbook/script/mbx -vv -c asy -f svg -d", "$file_path/images/ $file_name"],
