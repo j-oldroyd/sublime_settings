@@ -6,7 +6,8 @@
 		"nonhomogeneous",
 		"spring's",
 		"underdetermined",
-		"Glennallen"
+		"Glennallen",
+		"irrotational"
 	],
 	"auto_complete": true,
 	"auto_complete_commit_on_tab": true,
