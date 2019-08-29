@@ -11,7 +11,7 @@
 		//standard output
 		// "cmd": "xsltproc --xinclude %HOMEPATH%/mathbook/xsl/mathbook-latex.xsl $file_name",
 		//customized "chaos" theme for PDF output
-		"cmd": "xsltproc --xinclude %HOMEPATH%/mathbook/user/wvwc-latex.xsl $file_name > book.tex"
+		"cmd": "xsltproc --xinclude %HOMEPATH%/mathbook/user/wvwc-latex.xsl $file_name > $file_base_name.tex"
 	},
 	"selector": ["text.xml.mbx"]
 }
