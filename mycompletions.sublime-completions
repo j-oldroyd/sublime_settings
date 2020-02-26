@@ -5,15 +5,17 @@
 // </definition>$0
 
 {
-    "scope": "text.tex.latex, meta.environment.list.itemize.latex",
+    "scope": "source.tex.latex, text.tex.latex, meta.environment.list.itemize.latex",
 
     "completions":
     [
-        { "trigger": "defn", "contents": "\\begin{definition}\\label{definition:$1}\n\t$2\n\\end{definition}"},
-        { "trigger": "exmp", "contents": "\\begin{example}\\label{example:$1}\n\t$2\n\\end{example}"},
+        { "trigger": "dfn", "contents": "\\begin{definition}\\label{definition:$1}\n\t$2\n\\end{definition}"},
+        { "trigger": "exm", "contents": "\\begin{example}\\label{example:$1}\n\t$2\n\\end{example}"},
         { "trigger": "thm", "contents": "\\begin{theorem}\\label{theorem:$1}\n\t$2\n\\end{theorem}"},
-        { "trigger": "lem", "contents": "\\begin{lemma}\\label{lemma:$1}\n\t$2\n\\end{lemma}"},
+        { "trigger": "prp", "contents": "\\begin{proposition}\\label{proposition:$1}\n\t$2\n\\end{proposition}"},
+        { "trigger": "lmm", "contents": "\\begin{lemma}\\label{lemma:$1}\n\t$2\n\\end{lemma}"},
         { "trigger": "bf", "contents": "\\textbf{$1}"},
-        // { "trigger": "sc", "contents": "\\textsc{$1}"}
+        { "trigger": "sc", "contents": "\\textsc{$1}"},
+        { "trigger": "pgb", "contents": "\\pagebreak"}
     ]
 }
