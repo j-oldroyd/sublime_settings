@@ -1,7 +1,7 @@
 {
 	// "cmd": ["xsltproc", "--xinclude", "~/mathbook/xsl/mathbook-html.xsl", "$file_name"],
 	"working_dir": "$file_path",
-	"shell_cmd": "~/mathbook/script/mbx -vv -c sageplot -f svg -d \"${file_path}/images/\" ${file_name}",
+	"shell_cmd": "~/mathbook/script/mbx -vv -c sageplot -f svg -d \"${file_path}/images/\" ${file_name} && ~/mathbook/script/mbx -vv -c sageplot -f pdf -d \"${file_path}/images/\" ${file_name}",
 	"shell": true,
 	"selector": ["text.xml.mbx"]
 }
