@@ -2,6 +2,7 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"One Dark Color Scheme",
 	],
 	"installed_packages":
 	[
@@ -39,5 +40,5 @@
 		"View In Browser",
 		"WordCount",
 		"Writing Color Scheme"
-	]
+	],
 }

@@ -17,11 +17,11 @@
 	[
 		{
 			"characters": ".",
-			"selector": "source.python - string - comment - constant.numeric"
+			"selector": "source.python - string - comment - constant.numeric",
 		},
 		{
 			"characters": "\\",
-			"selector": "text.tex.latex"
+			"selector": "text.tex.latex",
 		}
 	],
 	"bold_folder_labels": true,
@@ -33,9 +33,10 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Markdown",
+		// "Markdown",
 		"Origami",
-		"Vintage"
+		"PackageResourceViewer",
+		"Vintage",
 	],
 	"line_padding_bottom": 2,
 	"line_padding_top": 2,
@@ -45,5 +46,5 @@
 		".ptx"
 	],
 	"theme": "Material-Theme.sublime-theme",
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
 }
