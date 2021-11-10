@@ -2,7 +2,6 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"One Dark Color Scheme",
 	],
 	"installed_packages":
 	[
@@ -23,7 +22,6 @@
 		"MarkdownPreview",
 		"Material Theme",
 		"Neon Color Scheme",
-		"One Dark Color Scheme",
 		"One Dark Material - Theme",
 		"Origami",
 		"Package Control",
