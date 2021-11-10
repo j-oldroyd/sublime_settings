@@ -29,7 +29,6 @@
 		"Package Control",
 		"PackageResourceViewer",
 		"PlainTasks",
-		"PreTeXtual",
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-contrib-mlint",
@@ -39,6 +38,6 @@
 		"Theme - Gravity",
 		"View In Browser",
 		"WordCount",
-		"Writing Color Scheme"
+		"Writing Color Scheme",
 	],
 }
