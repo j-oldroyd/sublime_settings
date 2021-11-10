@@ -46,6 +46,8 @@
 		"texpath" : "",
 		// TeX distro: "miktex" or "texlive"
 		"distro" : "miktex",
+		// Sublime Text executable; required to prevent new Sublime window from opening on build
+		"sublime_executable": "subl.exe",
 		// Command to invoke Sumatra. If blank, "SumatraPDF.exe" is used (it has to be on your PATH)
 		"sumatra": ""
 	},
