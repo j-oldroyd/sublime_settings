@@ -1,0 +1,7 @@
+[
+// Expand abbreviation in emmet using ctrl+e
+{
+    "keys": ["ctrl+e"],
+    "command": "emmet_expand_abbreviation"
+},
+]

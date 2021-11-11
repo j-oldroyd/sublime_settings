@@ -1,6 +1,11 @@
 {
 	// Disables tab abbreviation expansion in scopes. Use CTRL-E instead.
-	"disable_tab_abbreviations_for_scopes": "text.json, source.json, text.xml, text.html",
+	"disable_tab_abbreviations_for_scopes": "text.json, source.json, text.xml, text.xml.pretext, text.html",
+	// Disable tab expand for tags. Use ctrl+e instead.
+	// Probably overrides previous setting...
+	"disable_tab_abbreviations": true,
+	"auto_mark": false,
+
 	"telemetry": false,
 	"uid": "82ab2a40-6066-4e63-9716-92af894eafbc",
 }
