@@ -27,7 +27,7 @@
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"disable_tab_abbreviations": true,
-	"auto_complete_commit_on_tab": true,
+	/*"auto_complete_commit_on_tab": true,*/
 	"draw_white_space": "all",
 	"fade_fold_buttons": false,
 	"font_face": "Inconsolata-dz",

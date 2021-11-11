@@ -1,6 +1,6 @@
 {
 	// "cmd": ["xsltproc", "--xinclude", "~/mathbook/xsl/mathbook-html.xsl", "$file_name"],
-	"shell_cmd": "xsltproc --xinclude ~/mathbook/user/wvwc-html.xsl $file_name",
+	"shell_cmd": "xsltproc --xinclude --stringparam publisher publication.xml ~/mathbook/xsl/pretext-html.xsl $file_name",
 	//windows specific oddly enough
 	"windows":
 	{
