@@ -1,5 +1,12 @@
 // These settings override both User and Default settings for the LaTeX syntax
 {
 	"color_scheme": "Packages/Writing Color Scheme/Writing Color Scheme Light.tmTheme",
-	"theme": "Material-Theme.sublime-theme"
+	"theme": "Material-Theme.sublime-theme",
+	"spell_check": true,
+	"font_size": 13.0,
+	"show_minimap": true,
+	"word_wrap": true,
+	"user": {
+	        "highlight": false,
+	    },
 }

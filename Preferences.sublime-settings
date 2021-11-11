@@ -10,23 +10,23 @@
 		"irrotational"
 	],
 	"auto_complete": true,
-	"auto_complete_commit_on_tab": true,
 	"auto_complete_delay": 50,
 	"auto_complete_selector": "source, text",
 	"auto_complete_triggers":
 	[
 		{
 			"characters": ".",
-			"selector": "source.python - string - comment - constant.numeric"
+			"selector": "source.python - string - comment - constant.numeric",
 		},
 		{
 			"characters": "\\",
-			"selector": "text.tex.latex"
+			"selector": "text.tex.latex",
 		}
 	],
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"disable_tab_abbreviations": true,
+	"auto_complete_commit_on_tab": true,
 	"draw_white_space": "all",
 	"fade_fold_buttons": false,
 	"font_face": "Inconsolata-dz",
@@ -35,7 +35,7 @@
 	[
 		"Markdown",
 		"Origami",
-		"Vintage"
+		"Vintage",
 	],
 	"line_padding_bottom": 2,
 	"line_padding_top": 2,
@@ -45,5 +45,5 @@
 		".ptx"
 	],
 	"theme": "Material-Theme.sublime-theme",
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
 }

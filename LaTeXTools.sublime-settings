@@ -23,8 +23,16 @@
 	//Changes math live preview to include more packages than defaults.
 	"preview_math_template_packages": [
 		"\\usepackage{mathtools}",
-		"\\usepackage{physics}"
+		"\\usepackage{physics}",
+		"\\usepackage{amsmath}"
 	],
+
+	//Changes DPI settings for preview.
+	//See https://adreasnow.com/Cheat%20Sheets/LaTeXSetup/.
+	"preview_math_density": 600,
+	// If the image is not sharp enough increase this scale to get a better resolution.
+	// However also change the density by the same factor to keep the size.
+	"preview_math_scale_quotient": 4,
 
 
 // ------------------------------------------------------------------
@@ -174,4 +182,10 @@
 
 	// Similarly, the formatting for the autocomplete panel:
 	"cite_autocomplete_format": "{keyword}: {title}",
+
+// ------------------------------------------------------------------
+// Miscellaneous
+// ------------------------------------------------------------------
+	//See https://adreasnow.com/Cheat%20Sheets/LaTeXSetup/
+	"smart_bracket_scan_full_document": true,
 }

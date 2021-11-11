@@ -4,6 +4,7 @@
 	// "cmd": "xsltproc --xinclude ~/mathbook/xsl/mathbook-latex.xsl ${file_name}",
 	//customized "chaos" theme for PDF output
 	"cmd": "xsltproc --xinclude ~/mathbook/user/wvwc-latex.xsl ${file_name} > ${file_base_name}.tex",
+	// "cmd": "xsltproc --xinclude ~/mathbook/xsl/latex/pretext-latex-clp.xsl ${file_name} > ${file_base_name}.tex",
 	"shell": true,
 	//windows specific oddly enough
 	"windows":
