@@ -10,6 +10,7 @@
 		"irrotational"
 	],
 	"auto_complete": true,
+	"auto_complete_commit_on_tab": true,
 	"auto_complete_delay": 50,
 	"auto_complete_selector": "source, text",
 	"auto_complete_triggers":
@@ -33,8 +34,9 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Markdown",
+		// "Markdown",
 		"Origami",
+		"PackageResourceViewer",
 		"Vintage",
 	],
 	"line_padding_bottom": 2,
@@ -46,4 +48,5 @@
 	],
 	"theme": "Material-Theme.sublime-theme",
 	"translate_tabs_to_spaces": true,
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
 }

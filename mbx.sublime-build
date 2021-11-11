@@ -4,7 +4,7 @@
 	//windows specific oddly enough
 	"windows":
 	{
-		"shell_cmd": "xsltproc --xinclude %HOMEPATH%/mathbook/user/wvwc-html.xsl $file_name"
+		"shell_cmd": "xsltproc --xinclude --stringparam publisher publication.xml %HOMEPATH%/mathbook/xsl/pretext-html.xsl $file_name"
 	},
 	// "shell": true,
 	"selector": ["text.xml.mbx"]
