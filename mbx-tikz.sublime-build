@@ -5,7 +5,7 @@
 	"shell_cmd": "~/mathbook/script/mbx -vv -c latex-image -f svg -d \"${file_path}/images/\" ${file_name}",
 	"windows":
 	{
-		"shell_cmd": "%HOMEPATH%\\mathbook\\script\\mbx -vv -c latex-image -f svg -d \"${file_path}/images/\" ${file_name}"
+		"shell_cmd": "%HOMEPATH%\\mathbook\\pretext\\pretext.py -vv -c latex-image -f svg -d \"${file_path}/images/\" ${file_name}"
 	},
 	// "cmd": ["~/mathbook/script/mbx -vv -c latex-image -f svg -d", "$file_path/images/ $file_name"],
 	"selector": ["text.xml.mbx.ptx"]
