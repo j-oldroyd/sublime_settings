@@ -10,6 +10,7 @@
 		"irrotational",
 		"incompressible",
 		"parallelepiped",
+		"parameterization",
 	],
 	"auto_complete": true,
 	"auto_complete_commit_on_tab": true,
@@ -51,5 +52,5 @@
 	"theme": "Material-Theme.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
-	"font_size": 10,
+	"font_size": 12,
 }

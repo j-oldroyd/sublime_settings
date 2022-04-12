@@ -2,7 +2,13 @@
     <content><![CDATA[
 <definition xml:id="definition-${1/([A-Z])|(\s*<[^>]+>)|(\W+)/(?1\l$1:)(?2-:)(?3-:)/g}">
     <title>$1</title>
-    <statement>$2</statement>
+
+    <idx>$2</idx>
+    <statement>
+        <p>
+            $3
+        </p>
+    </statement>
 </definition>$0
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
