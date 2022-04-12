@@ -1,0 +1,6 @@
+{
+    "ref_auto_trigger": true,
+    "pretext_file_exts": [".mbx", ".ptx"],
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true
+}

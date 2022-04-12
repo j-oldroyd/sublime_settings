@@ -7,7 +7,8 @@
 		"spring's",
 		"underdetermined",
 		"Glennallen",
-		"irrotational"
+		"irrotational",
+		"incompressible",
 	],
 	"auto_complete": true,
 	"auto_complete_commit_on_tab": true,
@@ -37,7 +38,6 @@
 		// "Markdown",
 		"Origami",
 		"PackageResourceViewer",
-		"Vintage",
 		// "Emmet"
 	],
 	"line_padding_bottom": 2,
