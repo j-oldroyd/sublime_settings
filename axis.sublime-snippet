@@ -3,7 +3,7 @@
 \\begin{center}
 \\begin{tikzpicture}
   \\begin{axis}[%
-    myplot,
+    myaxis,
   ]
     ${1:enter plot info here}
   \\end{axis}
