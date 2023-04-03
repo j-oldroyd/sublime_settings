@@ -1,0 +1,12 @@
+{
+    // Use WSL in Windows.
+    "shell_configs": [
+        {
+            "name": "WSL Login Shell",
+            "cmd": "wsl.exe",
+            "env": {},
+            "enable": true,
+            "platforms": ["windows"]
+        }
+    ],
+}
