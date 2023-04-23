@@ -1,0 +1,18 @@
+{
+	"working_dir": "$file_path",
+	//"cmd": "xsltproc --xinclude ~/mathbook/xsl/mathbook-latex.xsl wvwc-calculus.xml",
+	// "cmd": "xsltproc --xinclude ~/mathbook/xsl/mathbook-latex.xsl ${file_name}",
+	//customized "chaos" theme for PDF output
+	"cmd": "latex ${file_base_name}.tex && dvips ${file_base_name}.dvi && ps2pdf ${file_base_name}.ps",
+	// "cmd": "xsltproc --xinclude ~/mathbook/xsl/latex/pretext-latex-clp.xsl ${file_name} > ${file_base_name}.tex",
+	"shell": true,
+	//windows specific oddly enough
+	"windows":
+	{
+		//standard output
+		// "cmd": "xsltproc --xinclude %HOMEPATH%/mathbook/xsl/mathbook-latex.xsl $file_name",
+		//customized "chaos" theme for PDF output
+		"cmd": "latex ${file_base_name}.tex && dvips ${file_base_name}.dvi && ps2pdf ${file_base_name}.ps",
+	},
+	"selector": ["text.xml.mbx"]
+}

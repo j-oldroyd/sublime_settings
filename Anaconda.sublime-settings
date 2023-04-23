@@ -1,0 +1,7 @@
+{
+    "anaconda_linting": false,
+    "windows":
+    {
+        "python_interpreter": "python3",
+    }
+}
