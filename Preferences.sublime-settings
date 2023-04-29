@@ -38,11 +38,8 @@
     "highlight_line": true,
     "ignored_packages":
     [
-        // "Markdown",
         "PackageResourceViewer",
         "Vintage",
-        // "Emmet"
-/*"Vintage",*/
     ],
     "line_padding_bottom": 2,
     "line_padding_top": 2,
